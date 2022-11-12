@@ -4,8 +4,6 @@ import Modal from 'react-bootstrap/Modal';
 import { IoIosArrowForward } from 'react-icons/io'
 import metaMask from '../../img/metaMask.png'
 import walletConnect from '../../img/walletConnect.png'
-import Row from 'react-bootstrap/Row';
-import Col from 'react-bootstrap/Col';
 import '../modal/Modal.css'
 
 const VModal = (props) => {
@@ -24,24 +22,28 @@ const VModal = (props) => {
 				</Modal.Header>
 				<Modal.Body className='p-4'>
 						<h4>Choose your preferred wallet:</h4>
-						<Button className='modal-btn mt-2'>		
-								<Row className='align-items-center'>
-									<Col xs lg="1 p-2 text-start"><img src={metaMask} alt="" /></Col>
-									<Col md="auto p-0 text-start">Metamask</Col>
-									<Col className='text-end'>
-										<IoIosArrowForward />
-									</Col>
-								</Row>					  						
-						</Button>
-						<Button className='modal-btn mt-3 mb-2'>		
-								<Row className='align-items-center'>
-									<Col xs lg="1 p-2 text-start"><img src={walletConnect} alt="" /></Col>
-									<Col md="auto p-0 text-start">WalletConnect</Col>
-									<Col className='text-end'>
-										<IoIosArrowForward />
-									</Col>
-								</Row>					  						
-						</Button>		
+				  <Button className='modal-btn mt-2 p-3'>	
+					  <div className='d-flex justify-content-between align-items-center'>
+						  <div className='d-flex align-items-center'>
+							  <img src={metaMask} alt="" />
+							  <p className='m-0 ps-3'>Metamask</p>
+						  </div>
+						  <div>
+							  <IoIosArrowForward />
+						  </div>						  
+					  </div>			  			  				
+					</Button>
+				  <Button className='modal-btn mt-3 mb-2 p-3'>	
+					  <div className='d-flex justify-content-between align-items-center'>
+						  <div className='d-flex align-items-center'>
+							  <img src={walletConnect} alt="" />
+							  <p className='m-0 ps-3'>WalletConnect</p>
+						  </div>
+						  <div>
+							  <IoIosArrowForward />
+						  </div>						  
+					  </div>
+					</Button>		
 				</Modal.Body>
     		</Modal>
 	 </>

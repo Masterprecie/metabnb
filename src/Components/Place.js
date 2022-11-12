@@ -7,13 +7,16 @@ import { AiFillStar } from 'react-icons/ai'
 import search from '../img/search.png'
 
 const Place = () => {
+
+
   return (
 	  <>
 		  <NavBar />
+
 		  <section className='container-fluid'>	
 			  <div className='container' id='place'>
 				  <div className='nft_location pt-5 pb-5 d-flex justify-content-between align-items-center'>
-					  <div className=''>
+					  <div className='' >
 						  <ul>
 							  <li>Resturant</li>
 							  <li>Cottage</li>
@@ -41,7 +44,7 @@ const Place = () => {
 							return <div key={id} className='col-lg-3 col-md-6 col-sm-12 mb-3'>
 							<div id='insp-card'>
 								<div>
-									<img src={img} alt="" className='img-fluid'/>
+									<img src={img} alt="" className='img-fluid img' />
 								</div>
 								<div className='d-flex justify-content-between mt-3'>
 									<div>

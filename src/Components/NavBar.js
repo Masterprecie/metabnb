@@ -4,13 +4,10 @@ import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
 import logo from '../img/logo.png'
 import Modal from './modal/Modal';
-//import Hero from './Hero';
+
 
 
 const NavBar = () => {
-
-	//const [modalShow, setModalShow] = React.useState(false);
-
 	return (
 		<>
 		<Navbar  expand="lg">
@@ -20,7 +17,7 @@ const NavBar = () => {
 			<Navbar.Collapse id="navbarScroll">
 				<Nav
 					className="mx-auto my-2 my-lg-0"
-					style={{ maxHeight: '100px' }}
+							style={{ maxHeight: '180px', paddingLeft:'20px' }}
 					navbarScroll
 				>
 					<Nav.Link href="/">Home</Nav.Link>
@@ -28,14 +25,13 @@ const NavBar = () => {
 					<Nav.Link href="#NFTs">NFTs</Nav.Link>
 					<Nav.Link href="#Communities">Communities</Nav.Link>
 				</Nav>
-				<div className="">			
-							<Modal/>							
-						</div>						 
+				<div className="ps-3">			
+					<Modal/>							
+				</div>						 
 			</Navbar.Collapse>
 			</Container>
 			</Navbar>
 		</>
   );
 }
-// render(<NavBar />);
 export default NavBar

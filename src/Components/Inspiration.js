@@ -16,7 +16,7 @@ const Inspiration = () => {
             return <div key={id} className='col-lg-3 col-md-6 col-sm-12 mb-3'>
               <div id='insp-card'>
                 <div>
-                  <img src={img} alt="" className='img-fluid'/>
+                  <img src={img} alt="" className='img-fluid img'/>
                 </div>
                 <div className='d-flex justify-content-between mt-3'>
                   <div>
