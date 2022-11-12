@@ -1,0 +1,17 @@
+.modal-btn{
+background: white!important;
+border-color: grey!important;
+color: #000!important;
+width: 100%!important;
+}
+
+
+.modal-btn svg{
+color: black;
+}
+
+.navbar-btn{
+background: linear-gradient(90deg, #A02279 11.45%, #A02279 11.45%)!important;
+border-color: #A02279!important;
+border-radius: 10px!important;
+}
