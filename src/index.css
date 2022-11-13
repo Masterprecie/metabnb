@@ -14,6 +14,7 @@ body {
   font-size: 20px !important;
   line-height: 25px !important;
   color: #434343 !important;
+  padding-left: 20px !important;
 }
 
 #hero h1 {
@@ -64,8 +65,6 @@ body {
   border: 1px solid #d7d7d7;
   border-radius: 15px;
   padding: 10px;
-  /* width: 23%!important;
-  margin-left: 10px; */
 }
 
 .svg {
@@ -185,8 +184,12 @@ body {
 }
 
 @media (max-width: 709px) {
- 
-  /* <div class="mx-auto my-2 my-lg-0 navbar-nav navbar-nav-scroll" style="max-height: 100px;"><a href="/" data-rr-ui-event-key="/" class="nav-link">Home</a><a href="/place-to-stay" data-rr-ui-event-key="/place-to-stay" class="nav-link">Place to stay</a><a href="#NFTs" data-rr-ui-event-key="#NFTs" class="nav-link">NFTs</a><a href="#Communities" data-rr-ui-event-key="#Communities" class="nav-link">Communities</a></div> */
+  .list {
+    display: none;
+  }
+  .nav-link {
+    padding-left: 0px !important;
+  }
   #hero h1 {
     font-size: 50px;
     font-weight: 600;
@@ -263,6 +266,9 @@ body {
   #sponsor-logo {
     display: flex;
   }
+  .nav-link {
+    padding-left: 0px !important;
+  }
   #hero .heroImg {
     text-align: center !important;
     padding-top: 30px;
@@ -276,6 +282,9 @@ body {
     text-align: center;
     margin-top: 0px !important;
     padding: 20px 0 20px !important;
+  }
+  .list {
+    display: none;
   }
 
   #NFTs .nft-row {
@@ -297,9 +306,14 @@ body {
     padding-top: 80px;
     text-align: left;
   }
-
+  .nav-link {
+    padding-left: 20px !important;
+  }
   #sponsor-logo {
     padding: 10px 0 10px;
+  }
+  .list {
+    display: contents;
   }
 
   #hero h1 {

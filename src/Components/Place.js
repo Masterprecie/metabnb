@@ -6,6 +6,10 @@ import {placeData} from '../PlaceData'
 import { AiFillStar } from 'react-icons/ai'
 import search from '../img/search.png'
 
+const list = [
+	'Resturant', 'Cottage', 'Castle', 'fantast city', 'beach', 'Carbins', 'off-grid','Farm'
+]
+
 const Place = () => {
 
 
@@ -16,16 +20,12 @@ const Place = () => {
 		  <section className='container-fluid'>	
 			  <div className='container' id='place'>
 				  <div className='nft_location pt-5 pb-5 d-flex justify-content-between align-items-center'>
-					  <div className='' >
-						  <ul>
-							  <li>Resturant</li>
-							  <li>Cottage</li>
-							  <li>Castle</li>
-							  <li>fantast city</li>
-							  <li>beach</li>
-							  <li>Carbins</li>
-							  <li>Off-grid</li>
-							  <li>Farm</li>
+					  <div className='list' >
+						  <ul className='d-flex'>
+							  {list.map((item) => {
+								  return <li>{item}</li>
+							  })
+							    }
 						  </ul>
 					  </div>
 					  <div>

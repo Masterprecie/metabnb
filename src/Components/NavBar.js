@@ -4,6 +4,7 @@ import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
 import logo from '../img/logo.png'
 import Modal from './modal/Modal';
+import {Link} from 'react-scroll'
 
 
 
@@ -22,12 +23,16 @@ const NavBar = () => {
 				>
 					<Nav.Link href="/">Home</Nav.Link>
 					<Nav.Link href="/place-to-stay">Place to stay</Nav.Link>
-					<Nav.Link href="#NFTs">NFTs</Nav.Link>
-					<Nav.Link href="#Communities">Communities</Nav.Link>
+					<Nav.Link >
+						<Link to = 'NFTs' spy={true} smooth={true} offset={60} duration= {500}>NFTs</Link>
+						</Nav.Link>
+					<Nav.Link>
+						<Link to='footer' spy={true} smooth={true} offset={80} duration={500}>Communities</Link>
+					</Nav.Link>			
 				</Nav>
-				<div className="ps-3">			
+					<div className="ps-3">			
 					<Modal/>							
-				</div>						 
+					</div>						 
 			</Navbar.Collapse>
 			</Container>
 			</Navbar>
