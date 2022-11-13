@@ -21,7 +21,7 @@ const Place = () => {
 			  <div className='container' id='place'>
 				  <div className='nft_location pt-5 pb-5 d-flex justify-content-between align-items-center'>
 					  <div className='list' >
-						  <ul className='d-flex'>
+						  <ul className=''>
 							  {list.map((item) => {
 								  return <li>{item}</li>
 							  })
