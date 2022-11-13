@@ -24,10 +24,10 @@ const NavBar = () => {
 					<Nav.Link href="/">Home</Nav.Link>
 					<Nav.Link href="/place-to-stay">Place to stay</Nav.Link>
 					<Nav.Link >
-						<Link to = 'NFTs' spy={true} smooth={true} offset={60} duration= {500}>NFTs</Link>
+						<Link to = 'NFTs' spy={true} smooth={true} duration= {500}>NFTs</Link>
 						</Nav.Link>
 					<Nav.Link>
-						<Link to='footer' spy={true} smooth={true} offset={80} duration={500}>Communities</Link>
+						<Link to='footer' spy={true} smooth={true} duration={500}>Communities</Link>
 					</Nav.Link>			
 				</Nav>
 					<div className="ps-3">			

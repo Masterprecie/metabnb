@@ -7,7 +7,7 @@ import { AiFillStar } from 'react-icons/ai'
 import search from '../img/search.png'
 
 const list = [
-	'Resturant', 'Cottage', 'Castle', 'fantast city', 'beach', 'Carbins', 'off-grid','Farm'
+	'Resturant', 'Cottage', 'Castle', 'Fantastcity', 'Beach', 'Carbins', 'Offgrid','Farm'
 ]
 
 const Place = () => {
