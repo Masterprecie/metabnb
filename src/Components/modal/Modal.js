@@ -8,8 +8,7 @@ const Modal = () => {
   return (
 	  <>
 		  
-		<Button className='navbar-btn'  onClick={() => setModalShow(true)} >Connect to wallet</Button>
-      
+		<Button className='navbar-btn'  onClick={() => setModalShow(true)} >Connect to wallet</Button>      
       <VModal
         show={modalShow}
         onHide={() => setModalShow(false)}

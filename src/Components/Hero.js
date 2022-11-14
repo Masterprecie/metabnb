@@ -15,14 +15,13 @@ const Hero = (...props) => {
 
   return (
 	  <>	 
-		  	<NavBar />
-		  <section className='container-fluid px-0' id='hero'>
+			<NavBar />
+		   <section className='container-fluid px-0' id='hero'>
 			  <div className='container'>
 				  <div className='row hero-row'>					  
 						<div className='col-lg-7 col-md-12 col-sm-12 px-lg-0 px-3'>				  
 								<h1>Rent a <span>Place</span> away from <span>Home </span>in the <span>Metaverse</span></h1>
-						  		<p>we provide you access to luxury and affordable houses in the metaverse, get a chance to turn your imagination to reality at your comfort zone</p>
-						  
+						  		<p>we provide you access to luxury and affordable houses in the metaverse, get a chance to turn your imagination to reality at your comfort zone</p>						  
 								<Form className="d-flex mt-5 form">
 									<Form.Control
 									type="search"
@@ -34,22 +33,21 @@ const Hero = (...props) => {
 								</Form>
 						</div>
 						<div className='col-lg-5 col-md-12 col-sm-12 heroImg text-end ps-lg-5'>				  		
-								<img src={heroImg} alt="" className='img-fluid'/>
+								<img src={heroImg} alt="hero_section_img" className='img-fluid'/>
 						</div>
 				  </div>
 				</div>
 		  </section> 
 		  <section className='container-fluid px-0'>
 			  	  <div id='sponsor-logo' className='d-flex justify-content-around'>
-					  <img src={mbToken} alt="" />
-					  <img src={metamask} alt="" />
-					  <img src={opensea} alt=""/>
+					  <img src={mbToken} alt="mbToken_logo" />
+					  <img src={metamask} alt="metamask_logo" />
+					  <img src={opensea} alt="opensea_logo"/>
 				  </div>
 		  </section>
 		  <Inspiration />
 		  <NFTs />
-		  <Footer /> 			
-			
+		  <Footer />	
 	 </>
   )
 }

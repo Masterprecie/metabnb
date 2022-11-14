@@ -127,7 +127,7 @@ body {
   padding: 60px 0 20px;
 }
 
-.footer-contents {
+#footer .footer-contents {
   display: flex;
   justify-content: space-between;
 }
@@ -197,7 +197,7 @@ body {
 
 /* Mobile view */
 
-@media (max-width: 709px) {
+@media (max-width: 550px) {
   #place .nft_location li {
     padding-right: 40px;
     padding-bottom: 10px;
@@ -292,7 +292,7 @@ body {
 
 /*Tab View*/
 
-@media (min-width: 710px) {
+@media (min-width: 600px) {
   #place .nft_location li {
     padding-right: 40px;
     padding-bottom: 10px;

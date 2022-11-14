@@ -11,13 +11,11 @@ const Footer = () => {
         <div className='container'>
           <div className='footer-contents'>
             <div>
-
               <img src={footerImg} alt="" />
-
                 <div className='footer-icons'>
-                  <a href="facebook" className='pe-4'><FaFacebookF/></a>
-                  <a href="instagram" className='pe-4'><AiOutlineInstagram/></a>
-                  <a href="twitter" className='pe-4'><AiOutlineTwitter /></a>                               
+                  <a href="facebook" className='pe-2'><FaFacebookF/></a>
+                  <a href="instagram" className='pe-2'><AiOutlineInstagram/></a>
+                  <a href="twitter" className='pe-2'><AiOutlineTwitter /></a>                               
                 </div>
             </div>
 
@@ -54,7 +52,6 @@ const Footer = () => {
           <span className='copyright'><BiCopyright/> 2022 Metabnb</span>
         </div>
       </section>
-
    </>
   )
 }

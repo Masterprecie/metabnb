@@ -12,7 +12,7 @@ const NavBar = () => {
 	return (
 		<>
 		<Navbar  expand="lg">
-			<Container className='px-0'>
+			<Container className='px-lg-0 px-3'>
 			<Navbar.Brand href="/"><img src={logo} alt="metabnb_logo" /></Navbar.Brand>
 			<Navbar.Toggle aria-controls="navbarScroll" />
 			<Navbar.Collapse id="navbarScroll">

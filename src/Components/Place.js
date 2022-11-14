@@ -32,7 +32,7 @@ const Place = () => {
 						  <Button className='place-location-btn d-flex'>
 							
 							  <p className='m-0 pe-5'>Location</p>
-							  <img src={search} alt="" />
+							  <img src={search} alt="search_location" />
 						  </Button>
 					  </div>
 				  </div>
@@ -44,7 +44,7 @@ const Place = () => {
 							return <div key={id} className='col-lg-3 col-md-6 col-sm-12 mb-3'>
 							<div id='insp-card'>
 								<div>
-									<img src={img} alt="" className='img-fluid img' />
+									<img src={img} alt="Nft_images" className='img-fluid img' />
 								</div>
 								<div className='d-flex justify-content-between mt-3'>
 									<div>
